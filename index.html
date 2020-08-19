@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Math Problems</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-right">
+                <h1><time>00:00:00</time></h1>
+            </div>
+            <div class="col-12">
+                <div class="problemBox">
+                    <p id="num1"></p>
+                    <p id="oper"></p>
+                    <p id="num2"></p>
+                    <p>=</p>
+                    <input id="answer" type="text">
+                </div>
+                <div class="resultBox">
+                    <p id="result"></p>
+                </div>
+            </div>
+        </div>
+        <div id="new" class="row">
+            
+        </div>
+    </div>
+
+
+
+    <audio id="correctAudio" src="audio/correct.mp3"></audio>
+    <audio id="resultAudio" src="audio/result.mp3"></audio>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

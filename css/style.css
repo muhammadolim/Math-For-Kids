@@ -1,0 +1,58 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    background-color: black;
+    height: 100%;
+}
+
+time{
+    color: grey;
+    font-size: 30px;
+}
+
+.problemBox,
+.resultBox{
+    width: max-content;
+    height: 150px;
+    background-color: grey;
+    margin: 10px auto 40px;
+    padding: 0 30px;
+    font-size: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
+}
+
+.problemBox{
+    display: flex;
+    
+}
+
+.resultBox{
+    display: none;
+}
+
+.problemBox p,
+.resultBox p{
+    margin: auto;
+}
+
+.problemBox input{
+    font-size: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 220px;
+    background-color: grey;
+    border: none;
+}
+
+#new{
+    font-size: 30px;
+    color: white;
+}
+
+#new div p{
+    text-align: center;
+}
