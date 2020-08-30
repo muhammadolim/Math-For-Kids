@@ -25,6 +25,10 @@ function makeProblem() {
     n1 = `${rand()}`;
     n2 = `${rand()}`;
 
+    if (n1 + n2 > 100) {
+        op = '-';
+    }
+
     if (op == '-' && n1 < n2) {
         [n1, n2] = [n2, n1];
     }
@@ -37,7 +41,7 @@ function makeProblem() {
 makeProblem();
 
 function rand() {
-    return 10 + Math.floor(Math.random() * 40);
+    return 10 + Math.floor(Math.random() * 90);
 };
 
 function writeAns() {
