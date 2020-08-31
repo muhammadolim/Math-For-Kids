@@ -13,7 +13,7 @@ var resultAudio = document.querySelector('#resultAudio');
 var n1, n2, op, check, mark,
     count = 0, countRow = 0, correctAnswers = 0;
 
-var operators = ['+', '-'],
+var operators = ['+', '+', '-'],
     highMarks = ['Браво', 'Невероятно', 'Фантастика', 'Вот это да', 'Здорово', 'Красота', 'Супер', 'Отлично', 'Молодец', 'Великолепный', 'Идеальный'],
     mediumMarks = ['Хорошо', 'Прохладный', 'Так держать', 'Хорошая работа', 'Хорошо справляешься', 'Впечатляющий'];
 
@@ -21,11 +21,28 @@ ans.focus();
 ans.value = '';
 
 function makeProblem() {
-    op = `${operators[Math.floor(Math.random() * 2)]}`;
-    n1 = `${rand()}`;
-    n2 = `${rand()}`;
+    op = `${operators[Math.floor(Math.random() * 3)]}`;
 
-    if (n1 + n2 > 100) {
+    switch (Math.floor(Math.random() * 5)) {
+        case 0:
+        case 1:
+            n1 = `${rand40()}`;
+            n2 = `${rand40()}`;
+            break;
+        case 2:
+        case 3:
+            n1 = `${rand40()}`;
+            n2 = `${rand90()}`;
+            break;
+        case 4:
+            n1 = `${rand90()}`;
+            n2 = `${rand90()}`;
+            break;
+        default:
+            break;
+    }
+
+    if (parseInt(n1) + parseInt(n2) > 100) {
         op = '-';
     }
 
@@ -40,7 +57,10 @@ function makeProblem() {
 
 makeProblem();
 
-function rand() {
+function rand40() {
+    return 10 + Math.floor(Math.random() * 40);
+};
+function rand90() {
     return 10 + Math.floor(Math.random() * 90);
 };
 
@@ -80,7 +100,7 @@ window.addEventListener('keydown', (event) => {
             time.style.color = 'gold';
 
             writeAns();
-            
+
             setTimeout(() => {
                 resultAudio.play();
 
