@@ -5,7 +5,7 @@ I build this app to help my little sister to do better in her math class. And Sh
 ## About
 You will be given 21 simple addition and subtraction problems only including 2 digit numbers. Even if you add two numbers answer will not be greater than 99. It is because these exercises are for 2-3 grade pupils. Subtracting two numbers will not cause negative number also.
 When you finish solving all given problems there will appear your score and related motivation sentence.
-There is also a timer on the top right corner that is another very useful feature to use.
+There is also a timer on the top right corner that is another beneficial feature to use.
 ## Future ideas
 - add multiplication and division problems
 - able to choose number of problems
