@@ -1,7 +1,7 @@
 # [Math-For-Kids](https://muhammadolim.github.io/Math-For-Kids)
 ### Interesting Math Game for Kids <br />
 
-![image](https://user-images.githubusercontent.com/58527269/178021702-8fa7011d-c5a8-4469-8c9f-262b30f60092.png)
+![image](https://user-images.githubusercontent.com/58527269/178022685-6eaa0e78-a1f1-4c5c-9cda-fd65be954418.png)
 ## Motivation
 I build this app to help my little sister to do better in her math class. And She became very good at adding and subtracting numbers below 100 over time. It was interesting as well as very useful project and we have enjoyed a lot together!
 ## About
