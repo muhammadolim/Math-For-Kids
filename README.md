@@ -14,4 +14,4 @@ There is also a timer on the top right corner that is another beneficial feature
 - keep track of scores of users
 ## How to use
 Online: [Math-For-Kids](https://muhammadolim.github.io/Math-For-Kids) <br />
-Local: Download all files and open index.html in your browser
+Local: Download all files and open **index.html** in your browser
