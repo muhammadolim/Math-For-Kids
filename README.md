@@ -1,5 +1,6 @@
 # [Math-For-Kids](https://muhammadolim.github.io/Math-For-Kids)
 Interesting Math Game for Kids
+![image](https://user-images.githubusercontent.com/58527269/178021474-2759d762-a3d2-4fb0-8a21-9ff494a9b492.png)
 ## Motivation
 I build this app to help my little sister to do better in her math class. And She became very good at adding and subtracting numbers below 100 over time. It was interesting as well as very useful project and we have enjoyed a lot together!
 ## About
@@ -12,6 +13,7 @@ There is also a timer on the top right corner that is another beneficial feature
 - add restart button
 - add login
 - keep track of scores of users
+- do responsive
 ## How to use
 Online: [Math-For-Kids](https://muhammadolim.github.io/Math-For-Kids) <br />
 Local: Download all files and open **index.html** in your browser
